@@ -7,7 +7,14 @@ form1_width = 300
 
 root = tk.Tk()
 
-def create_balance():
+#def create_balance():
+	#adicionar funcionalidade para pedir dados em nova tela, criar e abrir este balanço.
+
+#def open_balance():
+	#adicionar funcionalidade para abrir um balanço existente depois de mostrar uma lista extraída do json
+
+#def delete_balance():
+	#adicionar funcionalidade para mostrar os balanços existentes extraída do json e confirmar se quer mesmo deletar
 
 
 canvas = tk.Canvas(root, height=form1_height, width=form1_width)
