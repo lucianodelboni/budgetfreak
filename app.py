@@ -10,19 +10,19 @@ canvas = tk.Canvas(root, height=form1_height, width=form1_width)
 canvas.pack()
 
 frame = tk.Frame(root)
-frame.place(relx=0.1, rely=0.1, relwidth=0.8, relheight=0.8)
+frame.place(relx=0.2, rely=0.1, relwidth=0.8, relheight=0.8)
 
 label_mainpage = tk.Label(frame, text='Create, open or delete a balance below:')
-label_mainpage.pack()
+label_mainpage.place(rely=0)
 
 create_button = tk.Button(frame,text='Create', height=3, width=25)
-create_button.pack()
+create_button.place(rely=0.1)
 
 open_button = tk.Button(frame,text='Open', height=3, width=25)
-open_button.pack()
+open_button.place(rely=0.35)
 
 delete_button = tk.Button(frame,text='Delete', height=3, width=25)
-delete_button.pack()
+delete_button.place(rely=0.60)
 
 root.mainloop()
 
