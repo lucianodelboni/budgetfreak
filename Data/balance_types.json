@@ -1,0 +1,13 @@
+{
+	"bal_types": [
+		{
+			"type":"weekly"
+		}
+		{
+			"type":"biweekly"
+		}	
+		{
+			"type":"monthly"
+		}
+	]
+}

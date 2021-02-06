@@ -1,10 +1,14 @@
 import tkinter as tk
 import requests
+import json
 
 form1_height = 400
 form1_width = 300
 
 root = tk.Tk()
+
+def create_balance():
+
 
 canvas = tk.Canvas(root, height=form1_height, width=form1_width)
 canvas.pack()
