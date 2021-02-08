@@ -1,6 +1,9 @@
 {
 	"balances": [
-
-
+		{
+			"name" : "example" ,
+			"type:" : "monthly" ,
+			"Description" : "Brief"
+		}
 	]
 }

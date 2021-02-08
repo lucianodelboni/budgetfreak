@@ -3,6 +3,9 @@ import requests
 import json
 import datetime
 
+with open("Data/balances.json", "") as f: #terminar esta parte, ver se compensa guardar infos em CSV ou Json em LocalDB
+	data = json.load(f)
+
 form1_height = 400
 form1_width = 300
 
@@ -48,6 +51,8 @@ def create_balance():
 	new_button.place(relx= 0.4, rely=0.8)
 
 	#adicionar funcionalidade para pedir dados em nova tela, criar e abrir este balanço.
+	
+
 def modify_json(action):
 	if action == "add":
 		time_stamp = datetime.datetime.now()
@@ -68,6 +73,7 @@ def modify_json(action):
 
 
 def open_balance():
+	print(data)
 	pass
 	#adicionar funcionalidade para abrir um balanço existente depois de mostrar uma lista extraída do json
 
