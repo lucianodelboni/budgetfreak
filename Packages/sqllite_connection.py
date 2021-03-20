@@ -7,6 +7,8 @@ try:
 
 	print("Connection has been successfully established!")
 
+	conn.commit()
+
 except Error as e:
 
 	print(e)

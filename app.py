@@ -45,13 +45,13 @@ def create_balance():
 	new_description_entry = tk.Text(new_frame)
 	new_description_entry.place(rely=0.48, relwidth=0.95, relheight=0.25)
 
-	new_button = tk.Button(new_frame, text="Create", command= lambda: modify_json('add'))
+	new_button = tk.Button(new_frame, text="Create", command= lambda: modify_db('add'))
 	new_button.place(relx= 0.4, rely=0.8)
 
 	#adicionar funcionalidade para pedir dados em nova tela, criar e abrir este balanço.
 	
 
-def modify_json(action):
+def modify_db(action):
 	if action == "add":
 		time_stamp = datetime.datetime.now()
 		newwindow = tk.Toplevel()
