@@ -1,10 +1,8 @@
 import tkinter as tk
 import requests
-import json
 import datetime
 
-with open("Data/balances.json", "") as f: #terminar esta parte, ver se compensa guardar infos em CSV ou Json em LocalDB
-	data = json.load(f)
+
 
 form1_height = 400
 form1_width = 300
@@ -75,12 +73,11 @@ def modify_json(action):
 def open_balance():
 	print(data)
 	pass
-	#adicionar funcionalidade para abrir um balanço existente depois de mostrar uma lista extraída do json
+	#adicionar funcionalidade para abrir um balanço existente depois de mostrar uma lista dos existentes
 
 def delete_balance():
 	pass
-
-	#adicionar funcionalidade para mostrar os balanços existentes extraída do json e confirmar se quer mesmo deletar
+	#adicionar funcionalidade para mostrar os balanços existentes e confirmar se quer mesmo deletar
 
 
 canvas = tk.Canvas(root, height=form1_height, width=form1_width)
